@@ -4,6 +4,7 @@ console.log(usuarios);
 let operacion = "";
 let operacionUpper = "";
 let newArray = [];
+console.log(newArray);
 do {
 operacion = prompt(`OPERACIONES POSIBLES
 Elegí la operación que querés realizar:
@@ -173,11 +174,14 @@ switch (operacionUpper) {
         }
       }
       console.log(newArray);
+      usuarios = Array.from(newArray);
+      console.log(usuarios);
+      ;
     }
     else {
       alert(`La operación no se realizó.`)
     }
-
+    
     repetir4 = prompt("¿Querés repetir la operación? [SÍ/NO]");
     repetir4Upper = repetir4.toUpperCase();
       } while (repetir4Upper !== "NO");
