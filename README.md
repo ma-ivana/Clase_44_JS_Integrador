@@ -1,6 +1,6 @@
-##TP integrador JavaScript##
+##TP integrador JavaScript
 
-###Integrantes:###   
+###Integrantes:   
 -Soledad Álvarez  
 -Manuela Barbera  
 -María Ivana Croxcatto  
