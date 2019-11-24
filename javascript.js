@@ -176,8 +176,7 @@ switch (operacionUpper) {
       console.log(newArray);
       usuarios = Array.from(newArray);
       console.log(usuarios);
-      ;
-    }
+      }
     else {
       alert(`La operación no se realizó.`)
     }
